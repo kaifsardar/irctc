@@ -1,5 +1,5 @@
 # Train Booking API
-[![Watch API Demo](https://drive.google.com/file/d/14DpP5hO6ierY9jfpfvZx62RwEvwkh5wi/view?usp=share_link)](https://drive.google.com/file/d/1UaypeCTqggt5TwxfPAWPSUuQRrZ0lUzY/view?usp=share_link)
+[Watch API Demo](https://drive.google.com/file/d/1UaypeCTqggt5TwxfPAWPSUuQRrZ0lUzY/view?usp=share_link)
 ## 📌 Prerequisites
 
 

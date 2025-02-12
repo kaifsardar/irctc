@@ -1,15 +1,13 @@
 # Train Booking API
 [Watch API Demo](https://drive.google.com/file/d/1UaypeCTqggt5TwxfPAWPSUuQRrZ0lUzY/view?usp=share_link)
-## 📌 Prerequisites
+## Prerequisites
 
 
 - **MySQL** (up and running)
 - **Node.js**
 
 
-## 📌 Setup Instructions
-
-###1️⃣ Database Setup
+### Database Setup
 
 run using the MySQL CLI or MySQL Workbench.
 ```sql
@@ -52,7 +50,7 @@ CREATE TABLE bookings (
    ADMIN_API_KEY=Kaif@Admin@100
    ```
 
-### 2️⃣ Running the Application
+### Running the Application
 
 1. Clone :
    ```sh
@@ -74,7 +72,7 @@ CREATE TABLE bookings (
 
 ## 📌 API Endpoints
 
-### 🔹 1. Admin - Add Train (Requires API Key in Header)
+### 1. Admin - Add Train (Requires API Key in Header)
 **POST** `http://localhost:3000/admin/train`
 
 **Headers:**
@@ -106,7 +104,7 @@ CREATE TABLE bookings (
 }
 ```
 
-### 🔹 2. User Registration
+###  2. User Registration
 **POST** `http://localhost:3000/auth/register`
 
 **Body:**
@@ -129,7 +127,7 @@ CREATE TABLE bookings (
 }
 ```
 
-### 🔹 3. User Login
+###  3. User Login
 **POST** `http://localhost:3000/auth/login`
 
 **Body:**
@@ -139,7 +137,7 @@ CREATE TABLE bookings (
     "password": "mypassword"
 }
 ```
-✅ **Response:**
+ **Response:**
 ```json
 {
     "message": "Login successful",
@@ -148,7 +146,7 @@ CREATE TABLE bookings (
 ```
 Save the JWT Token for future requests.
 
-### 🔹 4. Get Available Trains (Requires Token)
+###  4. Get Available Trains (Requires Token)
 **GET** `http://localhost:3000/trains/?source=Sealdah&destination=Delhi`
 
 **Headers:**
@@ -173,7 +171,7 @@ Save the JWT Token for future requests.
 ]
 ```
 
-### 🔹 5. Book a Train Ticket (Requires Token)
+###  5. Book a Train Ticket (Requires Token)
 **POST** `http://localhost:3000/booking`
 
 **Headers:**
@@ -195,7 +193,7 @@ Save the JWT Token for future requests.
 }
 ```
 
-### 🔹 6. View User's all Bookings (Requires Token)
+###  6. View User's all Bookings (Requires Token)
 **GET** `http://localhost:3000/booking/`
 
 **Headers:**
@@ -217,7 +215,7 @@ Save the JWT Token for future requests.
 }
 ```
 
-### 🔹 7. Get a perticular Booking Details (Requires Token)
+###  7. Get a perticular Booking Details (Requires Token)
 **GET** `http://localhost:3000/booking/:bookingId`
 
 **Headers:**

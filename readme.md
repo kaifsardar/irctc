@@ -36,7 +36,9 @@ CREATE TABLE bookings (
     trainId INT NOT NULL,
     FOREIGN KEY (userId) REFERENCES users(id),
     FOREIGN KEY (trainId) REFERENCES trains(id)
-); ```
+);
+
+```
 
 ->Provide the below credentials in a `.env`
 

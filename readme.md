@@ -41,13 +41,13 @@ CREATE TABLE bookings (
 ->Provide the below credentials in a `.env`
 
    ```env
-   PORT=3000
-   DB_HOST=localhost
-   DB_NAME=irctc
-   DB_USER=root
-   DB_PASS=Kaif@100
-   JWT_SECRET=supersecret
-   ADMIN_API_KEY=Kaif@Admin@100
+   PORT=
+   DB_HOST=
+   DB_NAME=
+   DB_USER=
+   DB_PASS=
+   JWT_SECRET=
+   ADMIN_API_KEY=
    ```
 
 ### Running the Application
